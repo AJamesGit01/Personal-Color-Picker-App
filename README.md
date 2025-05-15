@@ -1,3 +1,20 @@
+# Overview
+The Color Picker is a simple web app that lets users select colors and view their values. It helps users easily choose and copy colors for design or development purposes.
+
+# Features
+- Color Selection: Users can pick a color using a color input tool.
+
+- Color Display: Shows the selected color visually.
+
+- Color Code: Displays the color’s HEX and RGB values for easy copying.
+
+# How It Works
+User opens the app and clicks the color input to select a color.
+
+The preview box updates to show the chosen color.
+
+The HEX and RGB codes update accordingly for user reference.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
