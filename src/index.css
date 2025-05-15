@@ -1,0 +1,53 @@
+/* RGB animated background */
+.color-picker-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(-45deg, #ff0000, #00ff00, #0000ff, #ff00ff);
+  background-size: 400% 400%;
+  animation: rgbBackground 15s ease infinite;
+}
+
+/* Keep the rest of the styling intact */
+.color-picker-container {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  font-family: sans-serif;
+}
+
+.color-box {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  color: #333;
+  font-weight: bold;
+}
+
+.color-input {
+  margin-top: 10px;
+  width: 60px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Animation keyframes for RGB gradient */
+@keyframes rgbBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
